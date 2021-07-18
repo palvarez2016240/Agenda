@@ -1,0 +1,344 @@
+#formulario{
+    display: block;
+    padding-left: 350px;
+}
+
+body{
+    margin-top: 0px;
+}
+
+input[type="text"]{
+    width: 250px;
+    text-align: center;
+    font-size: medium;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid green !important;
+    border: none;
+    color: black;
+}
+
+input[type="password"]{
+    width: 250px;
+    text-align: center;
+    font-size: medium;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid green !important;
+    border: none;
+    color: black;
+}
+
+input[type="Submit"]{
+    background: green;
+    color: white;
+    padding: 15px;
+    padding-left: 105px;
+    padding-right: 105px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px black;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+input[type="Submit"]:hover{
+    border-radius: 10px;
+    background: #39ff14;
+
+}
+
+*{
+    color:#39ff14;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: left;
+    margin-top: 54px;
+    box-shadow: 0px 1px 0px green;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    padding-right: 275px;
+    margin-top: -60px;
+}
+
+.lateral{
+    width: 1250px;
+    min-height: 110px;
+    /*position: fixed;*/
+}
+
+#aside{
+    height: 600px;
+    float: right;
+    margin-top: -115px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+    border-left: 3px solid darkgreen;
+    box-shadow: 0px 2px 2px green;
+    background-color: rgba(0, 0, 0, 0.900);
+}
+
+#aside li ul{
+    display: none;
+    position: absolute;
+}
+
+#aside li:hover > ul {
+    display: block;
+}
+
+#aside li > ul {
+    right: 4px;
+    background-color: rgba(0, 0, 0, 0.900);
+    margin-top: 5px;
+    padding-right: 94px;
+    padding-left: 94px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    border: 1px solid darkgreen;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.categ{
+    padding-left: 60px;
+    padding-right: 80px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#nox{
+    width: 100px;
+    border-radius: 50px;
+    padding-left: 40px;
+}
+
+.datos{
+    color: black;
+    font-size: medium;
+}
+
+.most{
+    margin-top: -50px;
+    margin-left: 175px;
+    padding-left: 125px;
+    float: left;
+    border-right: 1px solid green;
+    padding-right: 10px;
+}
+
+#editar{
+    background: green;
+    color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px black;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-left: 25px;
+    margin-top: -300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#cerrar{
+    background: green;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px black;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-top: -250px;
+    margin-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#editar:hover{
+    border-radius: 10px;
+    background: #39ff14;
+}
+
+#cerrar:hover{
+    border-radius: 10px;
+    background: #39ff14;
+}
+
+.ultima{
+    margin-top:-178px;
+    padding-left: 550px;
+}
+
+.listapro{
+    color: black;
+    text-align: center;
+    padding-left: 40px;
+    max-width: 200px;
+}
+
+.producto{
+    height: 250px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;  
+    box-shadow: 0px 2px 0px green;
+    margin-left: 75px;
+}
+
+h3{
+    padding-left: 100px;
+}
+
+.final p{
+    color: black;
+    font-size: small;
+    padding-left: 25px;
+    padding-top: 40px;
+}
+
+.final a{
+    color: black;
+    font-size: small;
+    padding-left: 25px;
+    padding-top: 40px;
+}
+
+.categ:hover > a{
+    color: white !important;
+}
+
+.final:hover a{
+    color: green;
+}
+
+#icn{
+    width: 25px;
+}
+
+.lista{
+    margin-top: -70px;
+    color: black !important;
+    margin-left: 300px;
+    max-width: 350px;
+    padding-left: 120px;
+    padding-top: -1000px;
+}
+
+.contac{
+    color: black;
+    font-size: x-large;
+}
+
+
+.lista li > ul{
+    color: black !important;
+    border: none !important;
+    display: none;
+    position: absolute;
+    padding-left: 85px;
+}
+
+.lista li:hover > ul {
+    display: block;
+}
+    
+.lista .contac:hover{
+    color: darkgreen;
+}
+
+.contac2{
+    color: black;
+    padding-left: 150px;
+    margin-top: -25px;
+}
+
+#formulario2{
+    padding-left: 25px;
+    float: left;
+    margin-top: -75px;
+    border-right: 1px solid green;
+}
+
+#formulario2 input[type="Submit"]{
+    background: green;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px black;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-top: 45px;
+    float: left;
+    margin-left: 50px;
+}
+
+#formulario2 input[type="Submit"]:hover{
+    border-radius: 10px;
+    background: #39ff14;
+
+}
+
+#formulario3 input[type="Submit"]{
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#formulario3{
+    display: block;
+    padding-left: 350px;
+    padding-bottom: 39px;
+}
+
+#error p{
+    color: black;
+    font-style: bold;
+    font-size: xx-large;
+}
+
+#error{
+    text-align: center;
+}
+
+#rota{
+    width: 261px;
+}
+
+footer{
+    margin-top: 26px;
+    padding-bottom: 21px;
+    padding-top: 15px;
+    margin-left: -34px;
+    text-align: center;
+    color: black;
+    border-top: 1px solid darkgreen;
+    border-left: 1 px solid darkgreen;
+    max-width: 1000px;
+    font-style: bold;
+}
